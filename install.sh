@@ -110,7 +110,7 @@ transport=(
 	QUIC_wechat-video_dynamicPort
 	QUIC_dtls_dynamicPort
 	QUIC_wireguard_dynamicPort
-	VLESS_WebSocket_TLS
+	"VLESS_WebSocket_TLS"
 )
 
 ciphers=(
@@ -802,7 +802,7 @@ install_v2ray() {
 		cp -rf $(pwd)/* /etc/v2ray/233boy/v2ray
 	else
 		pushd /tmp
-		git clone https://github.com/TelksBr/v2ray.git -b "$_gitbranch" /etc/v2ray/233boy/v2ray --depth=1
+		git clone https://github.com/sudosalve/v2ray.git -b "$_gitbranch" /etc/v2ray/233boy/v2ray --depth=1
 		popd
 
 	fi
@@ -1011,11 +1011,11 @@ esac
 clear
 while :; do
 	echo
-	echo "...........Script de instalação e script de gerenciamento V2Ray edit by @TALKERA .........."
+	echo "...........Script de instalação e script de gerenciamento V2Ray edit by @GOMESNET .........."
 	echo
-	echo "MEU CANAL NO TELEEGRAM: t.me/ssh_t_roject"
+	echo "MEU CANAL NO TELEEGRAM: GOMESNET"
 	echo
-	echo "creditos: https://233v2.com"
+	echo "Creditos: GOMESNET"
 	echo
 	echo " 1. Instalar"
 	echo
