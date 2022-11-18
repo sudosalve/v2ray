@@ -2384,7 +2384,7 @@ update_v2ray() {
 }
 update_v2ray.sh() {
 	if [[ $_test ]]; then
-		local latest_version=$(curl -H 'Cache-Control: no-cache' -s -L "https://raw.githubusercontent.com/TelksBr/v2ray/master/v2ray.sh" | grep '_version' -m1 | cut -d\" -f2)
+		local latest_version=$(curl -H 'Cache-Control: no-cache' -s -L "https://raw.githubusercontent.com/sudosalve/v2ray/master/v2ray.sh" | grep '_version' -m1 | cut -d\" -f2)
 	else
 		local latest_version=$(curl -H 'Cache-Control: no-cache' -s -L "https://raw.githubusercontent.com/233boy/v2ray/master/v2ray.sh" | grep '_version' -m1 | cut -d\" -f2)
 	fi
@@ -2610,9 +2610,9 @@ menu() {
 		echo
 		echo -e "## Versão do V2Ray: $cyan$v2ray_ver$none / status do V2Ray: $v2ray_status ##"
 		echo
-		echo "canal TG: https://t.me/ssh_t_project"
+		echo "Canal TG: https://t.me/ssh_t_project"
 		echo
-		echo "creditos: https://233v2.com/"
+		echo "Creditos: https://233v2.com/"
 		echo
 		echo -e "$yellow  1. $none Ver configuração do V2Ray"
 		echo
